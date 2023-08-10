@@ -1,0 +1,553 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* START OF ALERT BUTTONS*/
+.alert{
+    text-align: center;
+    padding: 14px 28px;
+    background-color:grey;
+    color: white;
+}
+.btn{
+    margin:20px;
+    padding: 14px 28px;
+    border:none;
+    opacity: 0.9;
+    font-size: larger;
+}
+.btn-success{
+    background-color:rgb(4,170,109);
+    color: white;
+   
+}
+.btn-info{
+    background-color:dodgerblue ;
+    color: white;
+}
+.btn-warning{
+    background-color: rgb(230,138,0);
+    color: white;
+}
+.btn-danger{
+    background-color:rgb(244,67,54) ;
+    color: white;
+    
+}
+.btn-secondary{
+    background-color:#ddd;
+}
+.btn:hover{
+     opacity: 1;
+     cursor: pointer;
+}
+/*  END OF ALERT BUTTONS
+    START OF OUTLINE BUTTONS    */
+.outline{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:10px 28px;
+    margin-top: 10px;
+}   
+
+.success {
+    border: 2px solid green;
+}
+.info{
+    border: 2px solid dodgerblue;
+}
+.warning{
+    border: 2px solid rgb(230,138,0);
+}
+.danger{
+    border: 2px solid red;
+}
+.secondary{
+    background-color: #ddd;
+}
+.success:hover{
+    background-color: green;
+    color: white;
+}
+.info:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.warning:hover{
+    background-color:rgb(230,138,0) ;
+    color: white;
+}
+.danger:hover{
+    background-color: red;
+    color: white;
+}
+/* END OF OUTLINE BUTTONS 
+   START OF SPLIT BUTTONS*/
+.split{
+    text-align: center;
+    background-color: rgb(218, 137, 137);
+    color: white;
+    padding:10px 28px;
+    margin-top: 10px;
+}
+.butt{
+    margin-top:20px;
+    padding: 10px;
+    border: none;
+    float: left;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    vertical-align: baseline;
+}
+.sp{
+    display: flex;
+    justify-content: center;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top:65px;
+    width: 150px;
+    box-shadow: 5px 5px 5px grey;
+    
+}
+.dropdown-content a{
+    display: block;
+   text-decoration: none;
+   color: black;
+   padding: 10px;
+   background-color:white;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    z-index: 1;
+    
+}
+.dropdown-content a:hover{
+    color: white;
+    background-color: grey;
+}
+
+/* END OF SPLIT BUTTONS
+   START OF FADING BUTTONS */
+.fade{
+    text-align: center;
+    background-color:#FFE5AD;
+    color: rgb(17, 16, 16);
+    padding:10px 28px;
+    margin-top: 20px;
+}
+.btn-in{
+    background-color: rgb(245,89,41,0.7);
+    color: white;
+
+}
+.btn-in:hover{
+    background-color: rgb(245,89,41,1);
+}
+.btn-out{
+    background-color: rgb(245,89,41,1);
+    color:white;
+}
+.btn-out:hover{
+    background-color: rgb(245,89,41,0.7);
+}
+.btn-bg:hover{
+    background-color: green;
+    color: white;
+}
+/* END OF FADING BUTTONS 
+   START OF BUTTON ON IMAGE */
+.image{
+    text-align: center;
+    background-color:rgb(245, 234, 90);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+}
+.card{
+    position: relative;
+    max-width: 50%;
+    margin: 10px auto;
+}
+.bt{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ padding: 8px 16px;
+ background-color:darkslategrey;
+ color: white;
+ border: none;
+ font-size: larger;
+ 
+}
+.bt:hover{
+    background-color: black;
+    cursor: pointer;
+}
+/* END OF IMAGE ON BUTTON 
+   START OF SOCAIL MEDIA BUTTON*/
+.social-button{
+    text-align: center;
+    background-color:rgb(255, 144, 187);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+}
+.social{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.media{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    opacity: 0.8;
+    
+}
+.media i{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+    
+}
+.media:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.rounded{
+    border-radius: 50%;
+}
+/* END OF SOCIAL MEDIA BUTTON
+   START OF READ MORE AND READ LESS BUTTON */
+.read{
+    text-align: center;
+    background-color:rgb(77, 150, 255);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.intro{
+    font-size: larger;
+    text-indent: 50px;
+}
+.more{
+    display: none;
+}
+.button{
+    padding: 8px;
+    background-color:rgb(66, 66, 66);
+    color:white;
+    border: none;
+    margin:10px;
+}
+.button:hover{
+    background-color: #eee;
+    color:black;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.button:active{
+    background-color: green;
+    color: white;
+}
+/* END OF READ MORE BUTTON
+   START OF LOADING BUTTON */
+.load{
+    text-align: center;
+    background-color:rgb(92, 75, 153);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+.loading{
+    padding: 10px 20px;
+    font-size: larger;
+    margin: 20px;
+    border:none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.fa-spin{
+    margin-right: 10px;
+}
+/* END OF LOADING BUTTONS 
+   START OF DOWNLOAD BUTTON */
+.down{
+    text-align: center;
+    background-color:rgb(63, 35, 5);
+    color:white;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+.download{
+     padding:14px 28px;
+    font-size: larger;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+}
+.fa-download{
+    margin: 10px;
+}
+.download:hover{
+    background-color: rgb(72, 114, 242);
+    cursor: pointer;
+}
+.full{
+    width: 100%;
+    margin-top: 20px;
+}
+/* END OF DOWNLOAD BUTTON
+   START OF PILL BUTTONS */
+.pill-btn{
+    text-align: center;
+    background-color:rgb(181, 201, 154);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.square{
+    background-color:#bbb;
+    color:black;
+}
+.pill{
+    background-color: #bbb;
+    color: black;
+    border-radius: 20px;
+}
+/* END OF PILL BUTTON
+   START OF NOTIFICATION BUTTONS */
+.notify{
+    text-align: center;
+    background-color:rgb(68, 80, 105);
+    color:white;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.box{
+    width:100px;
+    margin: 0px auto;
+    position: relative;
+}
+.btn-not{
+    padding: 14px 28px;
+    border: none;
+    background-color: rgb(71, 69, 69);
+    color: white;
+}
+.num{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    padding:5px 7px;
+    border-radius: 50%;
+    background-color: orangered;
+    border: none;
+    font-size: large;
+    color: white;
+}
+.btn-not:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+/* END OF NOTIFICATION BUTTONS
+   START OF ICON BUTTONS */
+.icon{
+    text-align: center;
+    background-color:rgb(162, 255, 134);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.social a{
+    text-decoration: none;
+    background-color: rgb(30,144,255);
+    padding:15px 20px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+.social a .fa-solid{
+    margin: 10px;
+}
+.social a:hover{
+    background-color: rgb(86, 95, 152);
+}
+/* END OF ICON BUTTONS
+   START OF NEXT AND PREVIOUS BUTTON */
+.next{
+    text-align: center;
+    background-color:rgb(255, 82, 162);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.pre a{
+    text-decoration: none;
+    background-color: grey;
+    font-size: larger;
+    padding: 14px 28px;
+    background-color:rgb(81, 219, 81);
+    color: white;
+    
+}  
+.pre .fa-2xs{
+    vertical-align: middle;
+    margin: 5px;
+}
+.pre{
+    margin-top:30px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.pre a:hover{
+    background-color: green;
+}
+.pre a.radi {
+    border-radius: 50%;
+    
+}
+/* END OF NEXT AND PREVIOUS BUTTON 
+   START OF MORE BUTTON IN NAVBAR */
+   .drop{
+    text-align: center;
+    background-color:rgb(253, 132, 31);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+   }
+   .nav{
+    background-color: rgb(168, 164, 164);
+    color: white;
+    padding: 20px 0px;
+   }
+   .nav ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+   }
+   .nav li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    
+}
+.dropdown-drop{
+    display: none;
+}
+.nav li a:hover{
+    background-color: grey;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown:hover .dropdown-drop{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top:38px;
+    background-color:white;
+    color: black;
+    width: 150px;
+    z-index: 2;
+    box-shadow: 5px 5px 5px grey;
+}
+.nav .fa-solid{
+    vertical-align: middle;
+    margin: 5px;
+}
+/* END OF MORE BUTTON IN NAVBAR
+   START OF ROUNDED BUTTON */
+.round{
+    text-align: center;
+    background-color:rgb(205, 16, 77);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.bord{
+    background-color:green;
+    color: white;
+}
+.radi-2{
+    border-radius: 2px;
+}
+.radi-4{
+    border-radius: 4px;
+}
+.radi-8{
+    border-radius: 8px;
+}
+.radi-12{
+    border-radius: 12px;
+}
+.radi-50{
+    border-radius: 50%;
+}
+/*END OF ROUNDED BUTTON
+  START OF SCROLL BACK TO TOP BUTTON*/
+.sd{
+    text-align: center;
+    background-color:rgb(97, 103, 122);
+    color:black;
+    padding:10px 28px;
+    margin-top: 20px;
+    
+}
+.sc{
+    background-color:rgb(153, 98, 122) ;
+    
+}
+.txt{
+    background-color:rgb(157, 178, 191) ;
+    padding: 10px 10px 100px 10px;
+    font-size: larger;
+}
+#demo{
+    padding: 14px 28px;
+    background-color: orangered;
+    border: none;
+    font-size: larger;
+    position:fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+    z-index:2;
+    color: white;
+}
+.by{
+    color:black;
+    width: 100%;
+    background-image: url(images/holi.jpg);
+    background-size:contain;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    
+}
